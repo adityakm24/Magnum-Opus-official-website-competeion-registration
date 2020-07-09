@@ -1,0 +1,106 @@
+body, html {
+  height: 100%;
+}
+.parallax {
+  /* The image used */
+  background-image: url('bg1.jpg');
+
+  /* Full height */
+  height: 108%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax1 {
+  /* The image used */
+  background-image: url('images.jpg');
+
+  
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: url('images.jpg');
+
+  
+  /* Full height */
+  height: 110%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.container3 {
+    position: relative;
+    width:100%;
+    height:600px;
+    object-fit:cover;
+    text-align: center;
+  }
+  
+
+  .container3 .btn {
+    background-color: rgb(255, 0, 0); 
+    color: white; 
+    border: 2px solid #ff1100;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 16px;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .container3 .btn:hover {
+    background-color: #9120d3; f44336
+  color: white;
+  }
+
+  .button {
+
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font'San Francisco', Helvetica, Arial, san-serif;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .button3 {
+    background-color: rgb(10, 102, 216);
+    color: white; 
+    border-radius: 10px;
+    font-family:'San Francisco', Helvetica, Arial, san-serif;
+  }
+  
+  .button3:hover {
+    background-color: #f44336;
+    color: white;
+  }
